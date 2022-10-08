@@ -4,9 +4,10 @@ using namespace std;
 
 void time(int seconds, int hours, int mins, int secs){
 cin >> seconds;
-hours = 
-mins = 
-secs = 
+cout << "Enter number of seconds" << endl;
+hours = (seconds/3600);
+mins = (seconds/60);
+secs = seconds;
 
 
   
